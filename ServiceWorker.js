@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-WestRacing-0.1";
+const cacheName = "DefaultCompany-WestRacing-1.00";
 const contentToCache = [
-"Build/1XRX4DECIWJPRNW.loader.js,",
-"Build/1XRX4DECIWJPRNW.framework.js.unityweb",
-"Build/1XRX4DECIWJPRNW.data.unityweb",
-"Build/1XRX4DECIWJPRNW.wasm.unityweb",
+"Build/EW3Q35U68RVG5UG.loader.js,",
+"Build/EW3Q35U68RVG5UG.framework.js.unityweb",
+"Build/EW3Q35U68RVG5UG.data.unityweb",
+"Build/EW3Q35U68RVG5UG.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
