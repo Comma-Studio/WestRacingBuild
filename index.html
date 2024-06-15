@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/VR8PHLUS2NY0PBU.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-          dataUrl: buildUrl + "/VR8PHLUS2NY0PBU.data.unityweb",
-      frameworkUrl: buildUrl + "/VR8PHLUS2NY0PBU.framework.js.unityweb",
-      codeUrl: buildUrl + "/VR8PHLUS2NY0PBU.wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WestRacing",
-        productVersion: "1.00",
+        productVersion: "1.01",
         showBanner: unityShowBanner,
       };
 
@@ -77,19 +77,12 @@
       // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-      // Mobile device style: fill the whole browser client area with the game canvas:
-      var meta = document.createElement('meta');
-      meta.name = 'viewport';
-      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-      document.getElementsByTagName('head')[0].appendChild(meta);
-    }
-    else {
-      var meta = document.createElement('meta');
-      meta.name = 'viewport';
-      meta.content = "width=device-width, initial-scale=1.0";
-      document.getElementsByTagName('head')[0].appendChild(meta);
-
-    }
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
 
       loadingBar.style.display = "block";
 
